@@ -9,4 +9,13 @@ def home(request):
 
     return response
 
-    
+
+# Changes made by Matiullah
+
+def home(request):
+
+    response = HttpResponse('Hello , Ustad')
+
+    return response
+
+  
